@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const metros = prompt('Ingrese distancia:', '');
+
+if (Number.isNaN(metros)) {
+			console.log(`Los metros ingresados no son válidos`);
+		} else if (metros <=1000) {
+			console.log(`${metros} iras a pie`);
+        } else if (metros <=10000) {
+			console.log(`${metros} iras en bicicleta`);
+        } else if (metros <=30000) {
+			console.log(`${metros} iras en colectivo`);
+        } else if (metros <= 100000) {
+			console.log(`${metros} iras en auto`);
+		} else{
+			console.log(`${metros} iras en avion`);
+		}
+
+    </script>
+    
+</body>
+</html>
