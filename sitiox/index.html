@@ -26,18 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active" aria-current="page" href="#HOME">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">NOVEDADES</a>
+                        <a class="nav-link" href="#NOVEDADES">NOVEDADES</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            CONOCENOS
-                        </a>
                     <li class="nav-item">
-                        <a class="nav-link disabled">CONTACTANOS</a>
+                        <a class="nav-link" href="#CONOCENOS">CONOCENOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#HISTORIA">HISTORIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#NOSOTROS">NOSOTROS</a>
                     </li>
                 </ul>
             </div>
@@ -53,12 +54,10 @@
                     aliquam voluptatibus voluptatem.</p>
             </div>
         </div>
-        <footer>
-            <p class="text-center"> Diseñado por Sofia Bona</p>
-        </footer>
+        
 
         <div class="row my-3">
-            <div id="novedades" class="col-md-5 offset-md-2 py-3">
+            <div id="novedades" class="col-md-5 offset-md-2 py-3 scroll_section">
                 <h2>NOVEDADES</h2>
                 <ul class="Lista-Novedades">
                     <li><a href="#" data-bs-toggle="modal"data-bs-target="#exampleModal">     
@@ -82,8 +81,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </div>
 
         <div class="col-md-3 my-3">
@@ -124,6 +121,117 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div> 
+                
+</div>
+        </div>
+
+        <div id="historia" class="row align-items-center py-4 scroll_section">
+            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+                <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-3 d-none d-sm-block">
+                <img src="img/historia_2.jpg" alt="historia 2" class="img-fluid">
+            </div>
+            <div class="col-12 d-sm-none">
+                <img src="img/historia_3.jpg" alt="historia 3" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                <h2>Historia</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur soluta magnam architecto voluptatem assumenda eum! Accusamus commodi optio hic doloremque ipsa quae fuga, sequi pariatur vero ipsum, itaque, soluta et?</p>
+            </div>
+        </div> 
+        
+        <div id="nosotros" class="row align-items-stretch my-3 staff py-4 scroll_section">
+            <div class="col-lg-8 offset-lg-2">
+                <h2>Nosotros</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros01.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title"> Diana Reyes</h5> 
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat officia fuga ut officiis aperiam mollitia obcaecati magnam rerum velit. Similique ipsam corporis dolore optio atque nisi ut quo fugit!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros02.jpg" class="card-img-top" alt="Juan Gomez">
+                            <div class="card-body">
+                                <h5 class="card-title"> Juan Gomez </h5> 
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat officia fuga ut officiis aperiam mollitia obcaecati magnam rerum velit. Similique ipsam corporis dolore optio atque nisi ut quo fugit!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros03.jpg" class="card-img-top" alt="Roberto zavala">
+                            <div class="card-body">
+                                <h5 class="card-title"> roberto zavala </h5> 
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat officia fuga ut officiis aperiam mollitia obcaecati magnam rerum velit. Similique ipsam corporis dolore optio atque nisi ut quo fugit!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros04.jpg" class="card-img-top" alt="luciano figuero">
+                            <div class="card-body">
+                                <h5 class="card-title"> luciano figuero </h5> 
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat officia fuga ut officiis aperiam mollitia obcaecati magnam rerum velit. Similique ipsam corporis dolore optio atque nisi ut quo fugit!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="conocenos" class="row py-4 scroll_section">
+            <div class="col-md-4 offset-md-2">
+                <h2> Visitanos</h2>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5528703135574!2d-58.4318924847708!3d-34.590178680463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb588135b72a5%3A0xd1737e826b987390!2sBlest%20Palermo!5e0!3m2!1ses-419!2sar!4v1686282007695!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div  class="col-md-4 mt-4 mt-sm-0">
+                <h2> contactanos</h2>
+            <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="Nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="Nombre">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="Apellido" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="Apellido">
+                    </div>
+                    <div class="col-12">
+                      <label for="email" class="form-label">email</label>
+                      <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="col-12">
+                      <label for="Tel" class="form-label">Tel </label>
+                      <input type="text" class="form-control" id="Tel placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="Mensaje" class="form-label">Mensaje</label>
+                      <input type="text" class="form-control" id="Mensaje">
+                    </div>
+                    <div class="col-12">
+                      <button type="enviar" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        
+
+
+
+
+                <footer>
+                    <p class="text-center"> Diseñado por Sofia Bona</p>
+                </footer>
 
 
 
