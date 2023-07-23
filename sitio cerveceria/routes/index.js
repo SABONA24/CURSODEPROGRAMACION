@@ -34,7 +34,7 @@ router.post('/', async(req, res, next) => {
 
  var info = await transport.sendMail(obj);
 
- res.render ('contacto', {
+ res.render ('index', {
      message: 'mensaje enviado correctamente'
 });
 
